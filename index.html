@@ -21,49 +21,24 @@
                 color:rgba(255, 158, 57, 1);
                 -->
             }
-            .chul {
+            .founders_photo {
                 width: 250px;
                 height: 250px;
                 border-radius: 125px;
                 -webkit-border-radius: 125px;
                 -moz-border-radius: 125px;
-                background: url(images/Chul_Headshot.jpg) no-repeat;
                 background-size: cover;
                 box-shadow: 0 0 8px rgba(0, 0, 0, .8);
                 -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
                 -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-                display: inline-block;
-                margin: 20px;
             }
-            .sunmee {
-                width: 250px;
-                height: 250px;
-                border-radius: 125px;
-                -webkit-border-radius: 125px;
-                -moz-border-radius: 125px;
-                background: url(images/Sunmee_headshot.jpg) no-repeat;
-                background-size: cover;
-                box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-                -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-                -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+            founders {
                 display: inline-block;
-                margin: 20px;
+                margin: -20px 20px 20px 20px;
             }
-            .justin {
-                width: 250px;
-                height: 250px;
-                border-radius: 125px;
-                -webkit-border-radius: 125px;
-                -moz-border-radius: 125px;
-                background: url(images/Justin_headshot.jpg) no-repeat;
-                background-size: cover;
-                box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-                -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-                -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-                display: inline-block;
-                margin: 20px;
+            .contact {
+                -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .4);
             }
-            
         </style>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
@@ -180,10 +155,21 @@
 						<p>We can answer all of your burning questions!</p>
 					</header>
 					<div class="box container small">
-                        <div class="chul"></div>
-                        <div class="sunmee"></div>
-                        <div class="justin"></div>
-						<!--
+                        <div>
+                            <founders>
+                                <img class="founders_photo" src="images/Chul_Headshot.jpg">
+                                <div class="founders_text"><strong>Chul Kwon</strong></div>
+                            </founders>
+                            <founders>
+                                <img class="founders_photo" src="images/Sunmee_headshot.jpg">
+                                <div class="founders_text"><strong>Sunmee Huh</strong></div>
+                            </founders>
+                            <founders>
+                                <img class="founders_photo" src="images/Justin_headshot.jpg">
+                                <div class="founders_text"><strong>Justin Chen</strong></div>
+                            </founders>
+                        </div>
+                        <!--
 							 Contact Form
 							 
 							 To get this working, place a script on your server to receive the form data, then
@@ -222,16 +208,18 @@
 					<ul class="actions">
 						<li><a href="#" class="fa solo fa-twitter"><span>Twitter</span></a></li>
 						<li><a href="#" class="fa solo fa-facebook"><span>Facebook</span></a></li>
+<!--
 						<li><a href="#" class="fa solo fa-google-plus"><span>Google+</span></a></li>
 						<li><a href="#" class="fa solo fa-dribbble"><span>Dribbble</span></a></li>
 						<li><a href="#" class="fa solo fa-pinterest"><span>Pinterest</span></a></li>
 						<li><a href="#" class="fa solo fa-instagram"><span>Instagram</span></a></li>
+-->
 					</ul>
 
 				<!-- Menu -->
 					<ul class="menu">
-						<li>&copy; Untitled</li>
-						<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+						<li>&copy; Chul Kwon, 2014</li>
+						<li><a href="http://html5up.net/">Big Picture</a></li>
 					</ul>
 			
 			</footer>
